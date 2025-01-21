@@ -1,6 +1,12 @@
-**** module/scope: sum1bcc_primitive
+**** module/scope: sum1bcc
      Flip-Flops   : 0
-     Logic Gates  : 5
+     Logic Gates  : 8
+     ADDER[2]: 2 units
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
 **** TOTALS
      Flip-Flops   : 0
-     Logic Gates  : 5
+     Logic Gates  : 8
+     ADDER[2]: 2 units
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
