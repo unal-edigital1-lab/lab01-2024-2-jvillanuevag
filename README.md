@@ -1,6 +1,6 @@
 # lab01- sumador 
 ## nombres
-Juan Andrés Villanueva Garzo
+Juan Andrés Villanueva Garzon
 
 ## informe de laoratorio 
 module sum1bcc (A, B, Ci,Cout,S); // Se define el modulo
