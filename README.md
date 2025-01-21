@@ -3,7 +3,7 @@
 Juan Andrés Villanueva Garzon
 
 ## informe de laoratorio 
-´´´´
+```
 module sum1bcc (A, B, Ci,Cout,S); // Se define el modulo
  //El modulo cuenta con 5 puertos
  // 3 entradas  
@@ -23,5 +23,5 @@ module sum1bcc (A, B, Ci,Cout,S); // Se define el modulo
   end
   
 endmodule
-´´´´
+```
 ### sumador 
