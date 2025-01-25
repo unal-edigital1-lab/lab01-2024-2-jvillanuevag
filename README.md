@@ -29,11 +29,12 @@ endmodule
 Este módulo Verilog implementa un sumador completo de un bit, donde las tres entradas (A, B y el acarreo de entrada Ci) se suman y el resultado se almacena en un registro de dos bits (st), cuyo bit menos significativo (st[0]) se asigna a la salida de suma S y cuyo bit más significativo (st[1]) se asigna al acarreo de salida Cout; al usar always @(*), cualquier cambio en A, B o Ci desencadena la actualización de st, y por lo tanto de S y Cout, lo que permite obtener en tiempo real el bit de suma y el bit de acarreo que resultan de la operación aritmética.
 
 Simulación 
+El comportamiento del circuito mostrado en la simulación es consistente con el funcionamiento esperado de un sumador completo. Las salidas (S y Cout) reaccionan correctamente a los cambios en las entradas (A, B, y Ci), siguiendo la lógica binaria del sumador: la salida S representa la suma binaria de las entradas, y Cout refleja el acarreo generado cuando la suma excede un bit. Además, las señales cambian de manera sincronizada, sin glitches ni irregularidades, lo que sugiere que el diseño está bien implementado y no presenta problemas de sincronización o tiempos. Finalmente, los valores de st[1:0] parecen codificar correctamente los estados de las salidas, lo que refuerza la idea de un funcionamiento estable y lógico del circuito.
 
 
 
+Sumador de 1 bit primitivo 
 
-Sumador de 1 bit primitivo
 ```
 module sum1bcc_primitive (A, B, Ci, Cout, S); 
 // Módulo Verilog llamado "sum1bcc_primitive", que implementa un sumador completo de 1 bit (full adder) usando puertas lógicas primitivas.
