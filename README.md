@@ -77,7 +77,9 @@ endmodule
 
 Este código implementa un sumador completo de un bit (full adder) utilizando puertas lógicas primitivas (and, xor y or). Toma como entradas dos bits (A y B) y un bit de acarreo de entrada (Ci), y genera dos salidas: el bit de suma (S) y el acarreo de salida (Cout). Primero, calcula la suma parcial de A y B mediante una puerta XOR (x_ab) y el acarreo directo mediante una puerta AND (a_ab). Luego, la suma final (S) se obtiene combinando la suma parcial (x_ab) con el acarreo de entrada (Ci) mediante otra XOR. Por último, el acarreo de salida (Cout) se calcula como la combinación del acarreo generado por la suma parcial y Ci (cout_t) y el acarreo directo de A y B (a_ab) mediante una puerta OR. Este diseño permite obtener la suma y el acarreo de salida con lógica combinacional eficiente.
 
+Simulación
 
+En esta simulación, se observa el comportamiento de otro circuito digital, probablemente relacionado con la operación de un sumador completo. Las señales de entrada (A, B, y Ci) cambian a lo largo del tiempo, y las salidas (S, a_ab, cout_t, y x_ab) responden de acuerdo a la lógica esperada. La salida S representa la suma binaria de las entradas (A, B, y Ci), mientras que cout_t parece reflejar el acarreo de salida. Todas las señales cambian de manera sincronizada, sin glitches ni transiciones inesperadas, lo que muestra un funcionamiento estable del diseño. La simulación confirmar que el circuito responde correctamente a las combinaciones de entrada y que está implementado con una lógica consistente y confiable.
 
 
 Analisis 
