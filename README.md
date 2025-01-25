@@ -82,6 +82,9 @@ Simulación
 
 En esta simulación, se observa el comportamiento de otro circuito digital, probablemente relacionado con la operación de un sumador completo. Las señales de entrada (A, B, y Ci) cambian a lo largo del tiempo, y las salidas (S, a_ab, cout_t, y x_ab) responden de acuerdo a la lógica esperada. La salida S representa la suma binaria de las entradas (A, B, y Ci), mientras que cout_t parece reflejar el acarreo de salida. Todas las señales cambian de manera sincronizada, sin glitches ni transiciones inesperadas, lo que muestra un funcionamiento estable del diseño. La simulación confirmar que el circuito responde correctamente a las combinaciones de entrada y que está implementado con una lógica consistente y confiable.
 
+Implementación
+
+Se compilo el codigo en quartus y a continuación se designaron los pines corrspondientes para cada operacion como se adjunta en la imagen que se encuentra como recurso en este github. Posteriormente, se realizaron las respectivas pruebas hasta obtener el funcionamiento idoneo en el hardware como se observa en el video.
 
 Analisis 
 
